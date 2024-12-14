@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video controls preload="auto"> <!-- Etiqueta de video-->
+                <source src="./video.m4v#t=30,60"> <!-- Se usa cuando se tiene varias tipos de extension o formatos de video -->
+                <source src="./video.mp4#t=30,60">
+            </video> <!-- Atributo controls : se manipulara el video -->
+            <!-- preload: permite cargar mas rapido el video : descargar -->
+             <!-- #t => Puedes definir el tiempo en donde empezara el video, en el ejemplo se puede ver
+               que iniciaria en el segundo 30 y termira en segundo 60 -->
+        </section>
+    </main>
+</body>
+</html>
