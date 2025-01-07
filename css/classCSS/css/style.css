@@ -1,0 +1,15 @@
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+/*  comentario : class*/
+
+.titulo {
+    color: red;
+}
+
+/* id: tiene que ser por numeral => # */
+#parrafo {
+    color: yellow;
+}

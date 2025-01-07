@@ -1,0 +1,9 @@
+/* Hermano general<> General sibling
+
+Example: div ~ p {}
+
+Definicion: Vamos a moficar todas las etiquetas de parrafo que tengan como hermano general un h2 */
+
+h2 ~ p {
+    color: red;
+}

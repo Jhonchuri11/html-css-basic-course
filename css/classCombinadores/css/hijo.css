@@ -1,0 +1,15 @@
+/* Hijo y descendiente <> ----
+
+Example: div > p {}
+
+Definicion: El padre div que sea mayor de una etiqueta parrafo <> A esa etiqueta p agregalo estilo  */
+
+div > p {
+    color: red;
+}
+
+/* Descendiente : Toadas las etiquetas parrado que esten dentro de div aplicar el estilo, en este ejemplo: rojo */
+
+div p {
+    color: red;
+}

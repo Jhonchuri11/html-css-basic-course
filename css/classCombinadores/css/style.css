@@ -1,0 +1,8 @@
+/* llamdo: adjacent simblings: Coloca el color en rojo de tolas etiquetas h2 que sean cercanos a una itiqueta p*/
+h2 + p {
+    color: red;
+}
+
+
+
+

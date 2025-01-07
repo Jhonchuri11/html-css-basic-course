@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: serif;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 10px;
+    font-family: monospace;
+}
+/* Recordar que respecto a la especificidad
+siempre se tomaran en cuenta en primer lugar lo que tengan id, luego las clases y despues los selectores o etiquetas */
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .blog {
+    background-color: red;
+}
